@@ -6,13 +6,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Dev {
+
     @Autowired
-    @Qualifier("laptop")
-    private computer computer;
+
+    @Qualifier("desktop")
+    private computer com;
 
     public void build(){
-        System.out.println("Working in awsome project");
-
-        computer.compiler();
+        System.out.println("worling on awsome project");
+        com.compiler();
     }
 }

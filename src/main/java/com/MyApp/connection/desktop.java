@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-public class Desktop implements computer {
+public class desktop implements computer {
     public void compiler(){
 
-        System.out.println("Desktop is powerfull");
+        System.out.println("dektop is portable");
     }
 }
